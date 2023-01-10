@@ -6,7 +6,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-public class Test {
+public class EmployeeTest {
     public static void main(String[] args) {
         List<Employee> employees = Employee.getEmployees();
         System.out.println(getMaleAndFemaleEmployee(employees));
